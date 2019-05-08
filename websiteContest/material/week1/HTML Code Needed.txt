@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html> 
+ <head>
+    <title>Processing.JS inside Webpages: Template</title> 
+</head>
+ <body>
+    <p align="center"> 
+	<!--This draws the Canvas on the webpage -->
+      <canvas id="mycanvas"></canvas> 
+    </p>
+ </body>
+ 
+ <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+ 
+ <script>
+    var sketchProc = function(processingInstance) {
+     with (processingInstance) {
+        // Size and framerate of the canvas
+        var WIDTH = 400;
+        var HEIGHT = 400;
+        size(WIDTH, HEIGHT); 
+        frameRate(60);
+
+        /* ------------------------------------------------------------
+	--------------------JavaScript code goes here--------------------
+           ----------------------------------------------------------*/
+
+    }};
+	
+    var canvas = document.getElementById("mycanvas"); 
+    
+    var processingInstance = new Processing(canvas, sketchProc); 
+ </script>
+
+</html>

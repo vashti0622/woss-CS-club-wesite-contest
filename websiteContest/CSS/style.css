@@ -1,11 +1,87 @@
-body{
-    background-color:#ebebeb;
+html{
+    background-color: #f8f8f8;
     font-family:'century gothic','Trebuchet MS';
 }
 
+.sub{
+    
+    color:#8f8f8f;
+    font-size:16px;
+
+    padding-top:18px;
+    padding-left: 16%;
+}
+
+.des{
+    
+    color:#616161;
+    font-size:18px;
+
+    padding-top:10px;
+    padding-left: 16%;
+    padding-right:16%;
+}
+
+
+/*Material Page*/
+
+.material{
+    color:#080808;
+    font-size:20px;
+
+    padding-top:10px;
+    padding-left: 16%;
+    padding-right:16%;
+}
+
+#materialDes{
+    font-size:17px;
+    color:#949494;
+}
+#classroomLink{
+    font-size:17px;
+    color:#8b8b8b;
+}
+#classroomLink:hover{
+    font-size:17px;
+    color:#afafaf;
+
+}
+
+.link{
+    font-size:17px;
+    color:#616161;
+}
+.link:hover{
+    font-size:17px;
+    color:#949494;
+}
+
+
+
+.block{
+    
+    color:#494949;
+    font-size:16px;
+
+    float:left;
+    width:30%;
+
+
+    margin-left:30px;
+    margin-top: 20px;
+    
+    border: 2px #8d8d8d solid;
+
+    padding-right: 3px;
+}
+
+
+
+
 .heading{
-    background-color: #0a0d0f;
-    color:#eeeeee;
+    background-color:#f8f8f8;
+    color:#363636;
     font-size:55px;
     font-weight:normal;
     /*width:40%;*/
@@ -17,21 +93,4 @@ body{
     padding-left:55px;
     padding-right:0;
 
-}
-
-.description{
-    color:#888888;
-    font-size:16px;
-    margin-left:30px;
-    margin-top: 20px;
-    width:240px;
-    border-right: 2px #b4b4b4 solid;
-}
-
-
-
-.links{
-    color:#666666;
-    font-size:14px;
-    font-weight:normal;
 }
