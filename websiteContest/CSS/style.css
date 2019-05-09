@@ -1,30 +1,63 @@
+/*index page*/
 html{
     background-color: #f8f8f8;
     font-family:'century gothic','Trebuchet MS';
 }
-
-.sub{
-    
+.sub{  
     color:#8f8f8f;
     font-size:16px;
-
     padding-top:18px;
     padding-left: 16%;
 }
-
-.des{
-    
+.des{  
     color:#616161;
     font-size:18px;
-
     padding-top:10px;
     padding-left: 16%;
     padding-right:16%;
 }
+.announcementCard{
+    background-color: #eeeeee;
+    color:#616161;
+    font-size: 17px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 2%;
+    padding-right:2%;
+    margin-bottom:18px;
+    margin-left:16%;
+    margin-right:16%;
+}
+.annTitle{
+    background-color: #eeeeee;
+    color:#080808;
+    font-size:19px;
+}
+.event{
+    color:#363636;
+    font-size:19px;
+    padding-top:10px;
+    padding-left: 16%;
+    padding-right:16%;
+}
+.eventLink{ 
+    color:#616161;
+    font-size:17px;
+}
+.eventLink:hover{
+    color:#838383;
+    font-size:17px;
+}
+/*Calendar*/
+.calendar{
+    margin-left:12%;
+    margin-right:12%;
+    margin-top:5%;
+    margin-bottom:10%;
+}
 
 
 /*Material Page*/
-
 .material{
     color:#080808;
     font-size:20px;
@@ -33,7 +66,6 @@ html{
     padding-left: 16%;
     padding-right:16%;
 }
-
 #materialDes{
     font-size:17px;
     color:#949494;
@@ -45,9 +77,7 @@ html{
 #classroomLink:hover{
     font-size:17px;
     color:#afafaf;
-
 }
-
 .link{
     font-size:17px;
     color:#616161;
@@ -57,40 +87,49 @@ html{
     color:#949494;
 }
 
-
-
-.block{
-    
-    color:#494949;
-    font-size:16px;
-
-    float:left;
-    width:30%;
-
-
-    margin-left:30px;
-    margin-top: 20px;
-    
-    border: 2px #8d8d8d solid;
-
-    padding-right: 3px;
+/*challenges page*/
+.questionCard{
+    background-color: #eeeeee;
+    color:#616161;
+    font-size: 17px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 2%;
+    padding-right:2%;
+    margin-bottom:18px;
+    margin-left:16%;
+    margin-right:16%;
 }
 
+.quesTitle{
+    background-color: #eeeeee;
+    color:#080808;
+    font-size:20px;
+}
 
+.quesSource{
+    background-color: #eeeeee;
+    color:#949494;
+    font-size:14px;
+}
 
-
-.heading{
-    background-color:#f8f8f8;
-    color:#363636;
-    font-size:55px;
-    font-weight:normal;
-    /*width:40%;*/
-    height:18%;
-
-    /*margin-top:10px;*/
-    /*margin-left:15px;*/
-
-    padding-left:55px;
-    padding-right:0;
-
+.quesSource:hover{
+    background-color: #eeeeee;
+    color:#acacac;
+    font-size:14px;
+}
+.webdesignCom{
+    background-color:#173140;   
+}
+.webdesignComSignUp{
+    font-size:300%;
+    color:#e6e6e6;
+    background-color:#173140;
+    margin-left:24%;    
+}
+.webdesignComSignUp:hover{
+    font-size:300%;
+    color:#a5a5a5;
+    background-color:#173140;
+    margin-left:24%;    
 }

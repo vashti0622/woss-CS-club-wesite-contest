@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title> WOSS Computer Science Club</title>
+      <title> WOSS CS Challenges</title>
       <link rel="stylesheet" type="text/css" href="CSS/style.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
       <header>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#040a20;">
+        <nav class="navbar navbar-expand navbar-dark" style="background-color:#040a20;">
                 <a class="navbar-brand" href="#">WOSS Computer Science Club</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
                     <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link" href="#">Calendar</a>
+                    <a class="nav-item nav-link" href="calendar.html">Calendar</a>
                     <a class="nav-item nav-link" href="material.html">Material</a>
                     <a class="nav-item nav-link active" href="#">Challenges <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="contact.html">Contact</a>
@@ -25,18 +25,83 @@
                 </div>
               </nav>
         </header>
-
+        
         <main>
-            <div class="spinner-grow text-secondary" role="status">
-                <span class="sr-only">Loading...</span>
+            <!--card-->
+            <!--Question by weeks-->
+            <br>
+            <div class="questionCard">
+              <p class="quesTitle">This Week's Challenge (May 7th - May 13th)</p>
+              <hr>
+              <p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+              <br>You may assume that each input would have exactly one solution, and you may not use the same element twice.
+              <br>Example:
+              <br>Given nums = [2, 7, 11, 15], target = 9,
+              <br>Because nums[0] + nums[1] = 2 + 7 = 9,
+              <br>return [0, 1].</p>
+              <a class="quesSource" href="https://leetcode.com/problems/two-sum/" target="_blank">from LeetCode</a>
             </div>
-            
+
+
+            <br>
+            <div class="questionCard">
+                <p class="quesTitle">April 30th - May 6th</p>
+                <hr>
+                <p>On a N * N grid, we place some 1 * 1 * 1 cubes.
+                <br>Each value v = grid[i][j] represents a tower of v cubes placed on top of grid cell (i, j).
+                <br>Return the total surface area of the resulting shapes.
+                <br>Example 1:
+                <br>Input: [[2]]
+                <br>Output: 10
+                <br>
+                <br>Example 2:
+                <br>Input: [[1,2],[3,4]]
+                <br>Output: 34
+                <br>
+                <br>Example 3:
+                <br>Input: [[1,0],[0,2]]
+                <br>Output: 16
+                <br>
+                <br>Example 4:
+                <br>Input: [[1,1,1],[1,0,1],[1,1,1]]
+                <br>Output: 32
+                <br>
+                <br>Example 5:
+                <br>Input: [[2,2,2],[2,1,2],[2,2,2]]
+                <br>Output: 46
+                <br>
+                <br>Note:
+                <br>1 <= N <= 50
+                <br>0 <= grid[i][j] <= 50</p>
+                <a class="quesSource" href="https://leetcode.com/problems/surface-area-of-3d-shapes/" target="_blank">from LeetCode</a>
+              </div>
 
 
 
+              <br>
+              <div class="questionCard">
+                <p class="quesTitle">April 23rd - April 29th</p>
+                <hr>
+                <p>You're given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.
+                <br>The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so "a" is considered a different type of stone from "A".
+                <br>Example 1:
+                <br>Input: J = "aA", S = "aAAbbbb"
+                <br>Output: 3
+                <br>
+                <br>Example 2:
+                <br>Input: J = "z", S = "ZZ"
+                <br>Output: 0
+                <br>
+                <br>Note:
+                <br>S and J will consist of letters and have length at most 50.
+                <br>The characters in J are distinct.</p>
 
+                <a class="quesSource" href="https://leetcode.com/problems/jewels-and-stones/" target="_blank">from LeetCode</a>
+              </div>
+
+          <!--footer pic-->
           <div class="image">
-            <img src="C:\Users\vasht\Desktop\websiteContest\source\indexFooter.png" alt="Welcome to WOSS Computer Science Club" width=100%>
+            <img src="source\indexFooter.png" alt="Welcome to WOSS Computer Science Club" width=100%>
           </div>
         </main>
     </body>
