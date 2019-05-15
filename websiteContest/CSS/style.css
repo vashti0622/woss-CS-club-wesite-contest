@@ -9,6 +9,12 @@ html{
     padding-top:18px;
     padding-left: 16%;
 }
+.mobileVersion{
+    color:#adadad;
+    font-size:14px;
+    padding-top:10px;
+    padding-left: 80%;
+}
 .des{  
     color:#616161;
     font-size:18px;
@@ -47,6 +53,27 @@ html{
 .eventLink:hover{
     color:#838383;
     font-size:17px;
+}
+.linkToPhone{
+    color:#8f8f8f;
+    font-size:16px;
+    padding-top:18px;
+    padding-left: 16%;
+    text-decoration:underline; 
+}
+.linkToPhone:hover{
+    color:#a8a8a8;
+    font-size:16px;
+    padding-top:18px;
+    padding-left: 16%;
+    text-decoration:underline; 
+}
+.linkToPhone:visited{
+    color:#8f8f8f;
+    font-size:16px;
+    padding-top:18px;
+    padding-left: 16%;
+    text-decoration:underline; 
 }
 /*Calendar*/
 .calendar{
@@ -133,3 +160,113 @@ html{
     background-color:#173140;
     margin-left:24%;    
 }
+
+.phone{
+    background-color: white;
+}
+.phoneHeader{
+    color:#040716;
+    font-family:'Times New Roman', Times, serif;
+    font-size:80px;
+    margin-left:22px;
+}
+.phoneSub{
+    color:#2d3953;
+    font-family:'Times New Roman', Times, serif;
+    font-size:48px;
+    margin-left:10px;
+}
+.phoneDes{
+    color:#141e35;
+    font-family:'Times New Roman', Times, serif;
+    font-size:55px;
+    margin-left:25px;
+    margin-right:25px;
+}
+.phoneSignUp{
+    background-color:#eeeeee;
+    color:#070e1f;
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    margin-left:35%;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.phoneSignUp:hover{
+    background-color:#eeeeee;
+    color:#0d162c;
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    margin-left:35%;
+    padding-left:10px;
+    padding-right:10px;
+    text-decoration:none;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.phoneSignUp:visited{
+    background-color:#eeeeee;
+    color:#070e1f;
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    margin-left:35%;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-decoration:none;
+}
+.phoneAnnouncementCard{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #eeeeee;
+    color:#4e4b53;
+    font-size: 50px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 2%;
+    padding-right:2%;
+    margin-bottom:18px;
+    margin-left:10%;
+    margin-right:10%;
+}
+.phoneAnnTitle{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #eeeeee;
+    color:#1d1f25;
+    font-size:55px;
+}
+.phoneEvent{
+    font-family:'Times New Roman', Times, serif;
+    color:#19171b;
+    font-size:55px;
+    padding-top:10px;
+    padding-left: 10%;
+    padding-right:10%;
+}
+.phoneEventLink{ 
+    font-family:'Times New Roman', Times, serif;
+    color:#1d1c20;
+    font-size:50px;
+}
+.phoneEventLink:hover{
+    font-family:'Times New Roman', Times, serif;
+    color:#3f3f41;
+    font-size:50px;
+}
+
+.phoneBackLink{
+    font-family:'Times New Roman', Times, serif;
+    color:#36363a;
+    font-size:44px;
+    margin-left:10px;
+    text-decoration: underline;
+}
+.phoneBackLink:hover{
+    font-family:'Times New Roman', Times, serif;
+    color:#5f5f63;
+    font-size:44px;
+    margin-left:10px;
+}
+
